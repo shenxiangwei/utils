@@ -1,4 +1,4 @@
-package com.ohaotian.cas.utils;
+package AESencrypt;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.StringUtils;
@@ -9,7 +9,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.spec.SecretKeySpec;
 import java.math.BigInteger;
 
-public class AesUtil{
+class AesUtil{
     //算法
     private static final String ALGORITHMSTR = "AES/ECB/PKCS5Padding";
     private static String AES_KEY = "cBssbHB3ZA==HKXT";
@@ -146,8 +146,8 @@ public class AesUtil{
         String decrypt = aesDecrypt(encrypt, AES_KEY);
         System.out.println("解密后：" + decrypt);
         //js加密后的字符串: lkqsgKHH7OkhIa0tISMtuQ==
-        String jsData = aesDecrypt("lkqsgKHH7OkhIa0tISMtuQ==", AES_KEY);
-        System.out.println("前端数据解密后的值:" + jsData);
+//        String jsData = aesDecrypt("lkqsgKHH7OkhIa0tISMtuQ==", AES_KEY);
+//        System.out.println("前端数据解密后的值:" + jsData);
 
     }
 
