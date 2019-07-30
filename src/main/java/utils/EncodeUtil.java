@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
