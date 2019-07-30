@@ -1,4 +1,4 @@
-package AESencrypt;
+package Utils;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.lang3.StringUtils;
