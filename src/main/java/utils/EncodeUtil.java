@@ -18,9 +18,7 @@ import org.slf4j.LoggerFactory;
 public class EncodeUtil {
 
     private static final Logger logger = LoggerFactory.getLogger(EncodeUtil.class);
-
-    private String  UTF_8 = "UTF-8";
-
+    
     /**
      * 将 URL 编码
      */
